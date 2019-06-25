@@ -6,3 +6,5 @@ Visual Studio で、Azure にデプロイする。
 Azure Functions の 概要→Function Appの設定→アプリケーション設定の管理で、+新しいアプリケーション設定をクリックして、Event Hub と SignalR Service の接続文字列を登録する。 
 - Event Hub → receiverConnectionString で設定 
 - SignalR Service → SignalRConnectionString で設定 
+
+※ このプロジェクトは、 Visual Studio の Function テンプレートで Http Trigger で作成して編集 

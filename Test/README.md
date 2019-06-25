@@ -10,3 +10,7 @@ MainWindow.xaml.cs の41行目、
 ```
 の \< Event Hub Connection String \> を、各自のEvent Hubの接続文字列で書き換える 
 実行して、ボタンをクリック。 
+
+<video width="320" height="240" controls>
+  <source src="SampleViewer.mp4" type="video/mp4">
+</video>
