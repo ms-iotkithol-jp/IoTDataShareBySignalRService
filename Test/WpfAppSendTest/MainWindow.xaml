@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Name="buttonSend" Content="Send" Margin="20" Click="ButtonSend_Click"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <TextBox Name="tbCS" Margin="2"/>
+        <TextBox Name="tbDeviceId" Grid.Row="1" Margin="2"/>
+        <Button Name="buttonConnect" Content="Connect" Grid.Row="2" Margin="2" Click="buttonConnect_Click" />
+        <Button Name="buttonSend" Content="Send" Grid.Row="3" Margin="2" Click="ButtonSend_Click" IsEnabled="False"/>
+        <ScrollViewer Grid.Row="4" Margin="2">
+            <TextBlock Name="tbLog" />
+        </ScrollViewer>
+        <Button Name="buttonClearLog" Content="Clear" Grid.Row="5" Margin="2" Click="buttonClearLog_Click"/>
     </Grid>
 </Window>
