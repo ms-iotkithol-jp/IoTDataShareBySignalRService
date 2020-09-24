@@ -79,7 +79,7 @@
         };
     }
 
-    const apiBaseUrl = "https://egsignalrservicehub20190620.azurewebsites.net";
+    const apiBaseUrl = "<- your SignalR uri ->";
     let data = { ready: false };
     textArrivedElem = document.getElementById("textArrived");
     textMessageElem = document.getElementById("textMessage");
