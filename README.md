@@ -1,7 +1,7 @@
 # SignalR Service を使って、IoT のテレメトリーデータを配布する 
 IoTデバイスなどがクラウドに送信してくるテレメトリーデータを インターネットで接続されたクライアントに転送するシステムのサンプル 
 
-![Architecture](Media/EventHubSignalRFunctions.png) 
+![Architecture](Media/EventHubSignalRFunctions.svg) 
 Event Hub（IoT Hubでも可）が受信したデータを、Event Hub Trigger のバインディングで Azure Function で受信し、SignalR Service バインディングで、SignalR に転送し、SignalR に接続した Web Browser 等で開いている、Web ページ（クライアント）で受信する。 
 ※ SignalR Serviceの詳細は[こちら](https://docs.microsoft.com/ja-jp/azure/azure-signalr/signalr-overview)を参照
 ## 試してみるために必要な環境 
